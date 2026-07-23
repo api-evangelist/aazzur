@@ -1,7 +1,28 @@
 aid: aazzur
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aazzur.png
 name: AAZZUR
-description: AAZZUR is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AAZZUR is a Berlin-based embedded finance and Banking-as-a-Service (BaaS)
+  platform that lets enterprises, financial institutions, and startups embed
+  financial services into their own products. It provides modular "Smart Finance
+  Blocks" (pre-configured front-end screens, micro-services, and connections to
+  underlying API providers) alongside its own developer-portal APIs and a smart
+  marketplace of BaaS and fintech partners. Customers can consume the APIs
+  directly, drop in AAZZUR's embeddable front-end components, or launch
+  stand-alone apps and web frontends covering banking, payments, cards, lending,
+  wealth management, and insurance without building the underlying financial
+  infrastructure themselves.
 url: https://raw.githubusercontent.com/api-evangelist/aazzur/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +35,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Embedded Finance
+- Banking as a Service
+- Fintech
+- Open Banking
+- Payments
+- API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://aazzur.com/
+  url: https://www.aazzur.com/
+- type: DeveloperPortal
+  url: https://aazzur.gitbook.io/api-documentations/
+- type: Documentation
+  url: https://aazzur.gitbook.io/api-documentations/
+- type: Blog
+  url: https://www.aazzur.com/news/
+- type: Support
+  url: mailto:contact@aazzur.com
+- type: TermsOfService
+  url: https://www.aazzur.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.aazzur.com/aazzur-privacy-policy
+- type: DomainSecurity
+  url: security/aazzur-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
