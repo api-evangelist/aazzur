@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/aazzur/integrations
+- https://n8n.io/integrations/aazzur/
+- https://composio.dev/toolkits/aazzur
+- https://monid.ai/tools/aazzur
+checked:
+- https://composio.dev/toolkits/aazzur
+- https://monid.ai/tools/aazzur
+- https://n8n.io/integrations/aazzur/
+- https://zapier.com/apps/aazzur/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
