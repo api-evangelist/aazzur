@@ -72,15 +72,38 @@ AAZZUR is a Berlin-based embedded finance and Banking-as-a-Service (BaaS) platfo
 
 Everything profiled for AAZZUR is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aazzur/](https://apis.io/providers/aazzur/)** — or go straight to one of the APIs or properties below.
 
+### APIs (1)
+
+- [AAZZUR API](https://apis.io/apis/aazzur/aazzur-api/) — Embedded finance API providing accounts, cards, transfers, and other banking services.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [AAZZUR Agentic Access](https://apis.io/agentic-access/aazzur/aazzur-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AAZZUR API Rules](https://apis.io/rules/aazzur/aazzur-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aazzur Domain Security](https://apis.io/security/aazzur/aazzur-domain-security/)
+- [AAZZUR Authentication](https://apis.io/security/aazzur/aazzur-authentication/)
+- [AAZZUR Domain Security](https://apis.io/security/aazzur/aazzur-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [AAZZUR Scopes](https://apis.io/scopes/aazzur/aazzur-scopes/)
 
 ## Where to find this API
 
@@ -88,34 +111,36 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://www.aazzur.com/)
 - [Documentation](https://aazzur.gitbook.io/api-documentations/)
-- [Blog](https://www.aazzur.com/news/)
-- [Terms of service](https://www.aazzur.com/terms-and-conditions)
-- [Privacy policy](https://www.aazzur.com/aazzur-privacy-policy)
+- [Getting started](https://aazzur.gitbook.io/api-documentations/getting-started)
+- [API reference](https://aazzur.gitbook.io/api-documentations/)
+- [Terms of service](https://www.aazzur.com/az-terms)
+- [Privacy policy](https://www.aazzur.com/az-privacy-policy)
+- [GitHub](https://github.com/aazzur)
 
 ## API Evangelist rating
 
-**Kin Score 11.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 24.6** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 48.2 |
+| Discoverability | 58.9 |
 | Contract quality | 0.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 16.7 |
-| Access clarity | 21.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 41.7 |
+| Access clarity | 29.8 |
 
-**Agent readiness 0.0** — human-only
+**Agent readiness 4.9** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
-| Agentic Access | — |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | — |
-| Auth Clarity | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
+| Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
@@ -128,8 +153,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 11.0** — Banking & Open Finance
+**Regulatory alignment 28.3** — Banking & Open Finance
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aazzur/](https://apis.io/providers/aazzur/).
 
